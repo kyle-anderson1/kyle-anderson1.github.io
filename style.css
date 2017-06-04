@@ -16,7 +16,9 @@ body {
 }
 
 #hobbiton_id {
+        display: block;
         margin: auto;
+        width: 40%;
 }
 
 #Page_links {
