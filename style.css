@@ -6,10 +6,14 @@
  */
 
 h1 {
-        color: blue;
+        font-family: "Georgia", Serif;
+        color: red;
         text-align: center;
 }
 
 body {
-        background-color: #81C7DC
+        background-color: #81C7DC;
+        font-family: "Georgia", Serif;
+        text-align: center;
+        color: red;
 }
