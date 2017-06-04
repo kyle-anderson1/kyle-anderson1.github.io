@@ -13,6 +13,13 @@ h1 {
 
 body {
         background-color: #81C7DC;
+}
+
+#hobbiton_id {
+        margin: auto;
+}
+
+#Page_links {
         font-family: "Georgia", Serif;
         text-align: center;
         color: red;
