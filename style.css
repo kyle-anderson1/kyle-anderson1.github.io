@@ -21,6 +21,12 @@ body {
         width: 40%;
 }
 
+img {
+        display: block;
+        margin: auto;
+        width: 40%;
+}
+
 #Page_links {
         font-family: "Georgia", Serif;
         text-align: center;
