@@ -15,16 +15,17 @@ body {
         background-color: #81C7DC;
 }
 
-/*#Hobbiton_img {
-        display: block;
-        margin: auto;
-        width: 40%;
-}*/
-
 img {
         display: block;
         margin: auto;
         width: 40%;
+}
+
+#bio {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
 }
 
 #Page_links {
