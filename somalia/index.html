@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Fallen Somalia</title>
+		<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet' >
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy" />
+		<style>
+		html, body {
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li > a:hover{
+    background:#BEB270; // 50bfff
+    transition: all .2s ease;
+    color: white;
+}
+
+nav > ul > li > a{
+    text-align:center;
+    font-family: 'Aclonica';
+		font-size: 1rem;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 120px;
+    height: 10px;
+    z-index: -1;
+    transform: perspective(10px) rotateX(-5deg);
+    transform-origin: bottom;
+    background: #BEB270;
+    color: black;
+}
+
+nav {  
+    float:left;
+   				width:50%;
+          		margin: 0;
+          		padding: 0px;
+   				overflow: hidden;
+  				top: 50%;
+  				left: 42%;
+  				margin-left: 42%;
+  				margin-top: auto;
+  				//background: grey;
+}
+nav ul{
+    margin:0;
+    
+}
+nav ul li{
+    display:inline-block;
+    
+}
+nav a{
+    margin: 0;
+    padding: 1rem;
+    color:#505050;
+    display:block;
+    text-decoration:none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+nav1 > ul > li > a:hover{
+    background:#BEB270; // 50bfff
+    transition: all .2s ease;
+    color: white;
+}
+
+nav1 > ul > li > a{
+    text-align:center;
+    font-family: 'Aclonica';
+		font-size: 1rem;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 120px;
+    height: 10px;
+    z-index: -1;
+    transform: perspective(10px) rotateX(5deg);
+    transform-origin: top;
+    background: #BEB270;
+    color: black;
+}
+
+nav1 {  
+	position: fixed;
+    float:left;
+   				width:50%;
+          		margin: 0;
+          		padding: 0px;
+   				overflow: hidden;
+  				bottom: 0;
+  				left: 21%;
+  				margin-left: 21%;
+  				//background: grey;
+}
+nav1 ul{
+    margin:0;
+    
+}
+nav1 ul li{
+    display:inline-block;
+    
+}
+nav1 a{
+    margin: 0;
+    padding: 1rem;
+    color:#505050;
+    display:block;
+    text-decoration:none;
+}
+		/*
+			#embers {
+				position: relative;
+			}
+			#embers pagetitle {
+				position: absolute;
+				top: 0;
+				font-family: 'Aclonica';
+				font-color: blue;
+				font-size: 40px;
+			}
+			#embers div, #embers video {
+				position: absolute;
+				top: 0;
+			}*/
+			.pre_title {
+				font-family: 'Satisfy';
+				font-size: 1.5rem;
+				color: white;
+				left: 35%;
+  				margin: auto;
+  				float: left;
+  				position: absolute;
+  				top: 35%;	
+  				overflow: hidden;	
+  				opacity: 0.4;
+  				text-align: center;
+    			width: 421.55px;
+  			}
+			.title {
+				font-family: 'Aclonica';
+				font-size: 6rem;
+				color: #BEB270;
+				left: 35%;
+  				margin: auto;
+  				float: left;
+  				position: absolute;
+  				top: 40%;	
+  				overflow: hidden;	
+  			}
+  			.post_title {
+				font-family: 'Satisfy';
+				font-size: 1.5rem;
+				color: white;
+				left: 35%;
+  				margin: auto;
+  				float: left;
+  				position: absolute;
+  				top: 55%;	
+  				overflow: hidden;	
+  				opacity: 0.4;
+  				text-align: center;
+    			width: 421.55px;
+  			}
+			/*
+			.embers_vid_div {
+				position: fixed;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				overflow: hidden;
+				z-index: -100;
+			}
+			.embers_vid {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}*/
+			
+			video {
+				position: fixed;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				overflow: hidden;
+				z-index: -100;
+        		width: 100%;
+				height: 100%;
+			}
+			@media (min-aspect-ratio: 16/9) {
+				video {
+					height: 300%;
+					top: -100%;
+				}
+			}
+			@media (max-aspect-ratio: 16/9) {
+				video {
+					width: 300%;
+					left: -100%;
+				}
+			}
+
+		</style>
+	</head>
+	<body>
+		<nav>
+  			<ul>
+    			<li class=" active"><a href="#">ENTER</a></li>
+  			</ul>
+		</nav>
+		<div class="embers_vid_div">
+			<video autoplay loop class= "embers_vid">
+  				<source src="embers.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div class="pre_title">The United States in</div>
+		<div class="title">Somalia</div>
+		<div class="post_title">A Failure of Policy</div>
+		<nav1>
+  			<ul>
+    			<li class=" active"><a href="#">ABOUT</a></li>
+  			</ul>
+		</nav1>
+		<!--
+		<div id="embers">
+			<video loop id= "embers_vid">
+  				<source src="embers.mp4" type="video/mp4">
+			</video>
+			<div id="pagetitle">
+				<p>Somalia</p>
+			</div>
+		</div> -->
+	</body>
+</html> 
