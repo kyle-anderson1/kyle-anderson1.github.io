@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kyle Anderson Personal Site</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        background: url(swing_bridge.jpg) no-repeat;
+        background-size: cover;
+      }
+      h1 {
+        color: white;
+      }
+
+      hr {
+        width:80%;
+        height: 6px;
+	      background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+        border: 0;
+      }
+      .navbar{
+        margin-bottom:0;
+        border-radius:0;
+      }
+      #profile_picture{
+        padding-left:100px;
+        padding-right:100px;
+        padding-top:15px;
+        padding-bottom:15px;
+      }
+      #profile_picture .container{
+        border-radius: 20px;
+        padding-top:15px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+        background-color: rgba(255, 255, 255, 0.50);
+      }
+
+      #topic p{
+        color:white;
+        display: none;
+      }
+      #topic:hover p{
+        display:block;
+      }
+
+      #footer_text {
+        color: white;
+        margin-top: 0px;
+      }
+      #footer_contact_info{
+        font-size: 15px;
+        color: grey;
+      }
+      #contact_icon{
+        font-size: 15px;
+        color: white;
+      }
+      .navbar-bottom{
+        margin-top: 50px;
+        padding-top:15px;
+        padding-bottom: 15px;
+      }
+      #bs-example-navbar-collapse-1 {
+        padding-left:0px;
+        padding-right:0px;
+        float:left;
+      }
+    </style>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            Kyle Anderson
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="aboutme.html">About me<span class="sr-only">(current)</span></a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html">Resume</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="profile_picture">
+      <div class="container">
+        <img class="img-responsive center-block img-circle" style="padding-top:15px;width:40%;height:40%;" alt="Profile Photo" src="linkedin.jpg">
+      </div>
+    </div>
+
+    <div class="container text-center">
+      <h1>Interests</h1>
+      <br>
+      <div class="row">
+        <div id="topic" class="col-md-4 col-sm-4">
+          <h2><span class="label label-info">History Nerd</span></h2>
+          <p>You won't find anyone more excited about history than I.<br>
+          Learning about other places, times, and peoples is one of the enduring passions of my life.<br>
+          See my project on the American intervention in Somalia as an example.</p>
+        </div>
+        <div id="topic" class="col-md-4 col-sm-4">
+          <h2><span class="label label-info">Future Programming Champion</span></h2>
+          <p>I am quickly picking up new skills and tradecraft.<br>
+          Right now my focus is on web development and cloud applications, but in the past<br>
+          I have developed a proficiency in low-level and object-oriented programming.
+          </p>
+        </div>
+        <div id="topic" class="col-md-4 col-sm-4">
+          <h2><span class="label label-info">Running Fiend</span></h2>
+          <p>I have run cross country and track through high school and college.<br>
+          It is what keeps me healthy, physically and mentally, and it reminds me<br>
+          that anything is possible with hard work and the support of friends.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container text-center">
+      <h1>Personality</h1>
+      <br>
+      <div class="row">
+        <div id="topic" class="col-md-4 col-sm-4">
+          <h2><span class="label label-danger">Curious</span></h2>
+          <p>Ever since I was a kid, curiosity has been my defining trait.
+          I am a born explorer and due to that I love travel and seeking out new things.</p>
+        </div>
+        <div id="topic" class="col-md-4 col-sm-4">
+          <h2><span class="label label-danger">Passionate</span></h2>
+          <p>I get drawn to care about topics with great ease and it has led
+          me to explore fields from sociology to political science to computer science.</p>
+        </div>
+        <div id="topic" class="col-md-4 col-sm-4">
+          <h2><span class="label label-danger">Creative</span></h2>
+          <p>I especially love experimenting with the visual side of things.
+          I think this has led me to explore web design more so than other areas.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container text-center">
+      <h1>Experience</h1>
+      <br>
+      <div class="row">
+        <div id="topic" class="col-md-4 col-sm-4">
+          <h2><span class="label label-warning">Low-Level</span></h2>
+          <p>Proficient in C with exposure to AMD64 Assembly Code.</p>
+        </div>
+        <div id="topic" class="col-md-4 col-sm-4">
+          <h2><span class="label label-warning">Frontend/Backend</span></h2>
+          <p>Always learning new things on the front end side on my own.
+          In terms of backend, I am working towards developing a proficiency
+          with the Google App Engine, building upon my background in Heroku.</p>
+        </div>
+        <div id="topic" class="col-md-4 col-sm-4">
+          <h2><span class="label label-warning">Object Oriented</span></h2>
+          <p>This is where it all began, my introduction to the world of
+          computer science. I am proficient in C++ and am always open to
+          learning new things in the area.</p>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-inverse navbar-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <h3 id="footer_text">Kyle Anderson</h3>
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="footer_contact_info" class="col-md-6 col-sm-6">
+            <h3 id="footer_text">Contact Information</h3>
+            <span id="contact_icon" class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> 6 Emery St., Medford, MA 02155<br>
+            <span id="contact_icon" class="glyphicon glyphicon-earphone" aria-hidden="true"></span> 415-378-3970<br>
+            <span id="contact_icon" class="glyphicon glyphicon-envelope" aria-hidden="true"></span> kanderson12896@gmail.com
+          </div>
+        </div>
+      </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

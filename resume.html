@@ -1,48 +1,112 @@
 <!DOCTYPE html>
-<html>
-        <head>
-                <link rel="stylesheet" href="style.css" />
-                <title>resume.html</title>
-        </head>
-        <body>
-                <header>
-                        <h1>KYLE ANDERSON</h1>
-                </header>
-                <ul>
-                        <li>Education
-                                <ul>
-                                        <li>Tufts University: Computer Science 
-                                        (BS), International Relations (BA) 2019</li>
-                                </ul>
-                        </li>
-                        <li>Relevant Coursework
-                                <ul>
-                                        <li>CS11: Intro to Computer Science</li>
-                                        <li>CS15: Data Structures</li>
-                                        <li>CS40: Machine Structures and Assembly Languages</li>
-                                        <li>CS61: Discrete Mathematics</li>
-                                        <li>CS20: Web Development</li>
-                                </ul>
-                        </li>
-                        <li>Professional Experience
-                                <ul>
-                                        <li>San Francisco Running Company:
-                                            Running-wear Specialist</li>
-                                </ul>
-                        </li>
-                        <li>Skills
-                                <ul>
-                                        <li>C, C++, HTML5, CSS, AMD64 Assembly Language</li>
-                                </ul>
-                        </li>
-                        <li>Activities/Projects
-                                <ul>
-                                        <li>Universal Machine (Emulator)</li>
-                                        <li>Image Compressor/Decompressor</li>
-                                        <li>Tool Similar to Unix's Grep</li>
-                                        <li>Simulation for Amazon Logistics</li>
-                                </ul>
-                        </li>
-                </ul>
-        </body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kyle Anderson Personal Site</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    .navbar{
+      margin-bottom:0;
+      border-radius:0;
+    }
+    #resume_pdf{
+      height: 100%;
+      width:100%;
+      border: none;
+      padding: none;
+      margin-bottom: 0px;
+    }
+    #footer_text {
+      color: white;
+      margin-top: 0px;
+    }
+    #footer_contact_info{
+      font-size: 15px;
+      color: grey;
+    }
+    #contact_icon{
+      font-size: 15px;
+      color: white;
+    }
+    .navbar-bottom{
+      margin-top: 50px;
+      padding-top:15px;
+      padding-bottom: 15px;
+    }
+    #bs-example-navbar-collapse-1 {
+      padding-left:0px;
+      padding-right:0px;
+      float:left;
+    }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            Kyle Anderson
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="aboutme.html">About me<span class="sr-only">(current)</span></a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html">Resume</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="resume_pdf">
+      <div class="container">
+        <embed src="Resume_final.pdf" width="100%" height="1000px;" />
+        <!--<iframe src="Resume_final.pdf"></iframe>-->
+      </div>
+    </div>
+    <nav class="navbar navbar-inverse navbar-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <h3 id="footer_text">Kyle Anderson</h3>
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="footer_contact_info" class="col-md-6 col-sm-6">
+            <h3 id="footer_text">Contact Information</h3>
+            <span id="contact_icon" class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> 6 Emery St., Medford, MA 02155<br>
+            <span id="contact_icon" class="glyphicon glyphicon-earphone" aria-hidden="true"></span> 415-378-3970<br>
+            <span id="contact_icon" class="glyphicon glyphicon-envelope" aria-hidden="true"></span> kanderson12896@gmail.com
+          </div>
+        </div>
+      </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
