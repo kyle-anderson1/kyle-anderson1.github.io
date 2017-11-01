@@ -9,8 +9,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <style>
       body {
-        background: url(swing_bridge.jpg) no-repeat;
-        background-size: cover;
+        background-color: #B2C4D7;
+        //background: url(swing_bridge.jpg) no-repeat;
+        //background-size: cover;
       }
       h1 {
         color: white;
@@ -26,6 +27,7 @@
         margin-bottom:0;
         border-radius:0;
       }
+      /*
       #profile_picture{
         padding-left:100px;
         padding-right:100px;
@@ -38,6 +40,15 @@
         padding-bottom: 15px;
         padding-left: 40px;
         padding-right: 40px;
+        background-color: rgba(255, 255, 255, 0.50);
+      }*/
+      #profile_picture {
+        padding-top: 20px;
+        padding-left:100px;
+        padding-right:100px;
+      }
+      #proftron {
+        border-radius: 10px;
         background-color: rgba(255, 255, 255, 0.50);
       }
 
@@ -97,8 +108,9 @@
         </div>
       </div>
     </nav>
-    <div id="profile_picture">
-      <div class="container">
+
+    <div id="profile_picture" class="container">
+      <div id="proftron" class="jumbotron">
         <img class="img-responsive center-block img-circle" style="padding-top:15px;width:40%;height:40%;" alt="Profile Photo" src="linkedin.jpg">
       </div>
     </div>
@@ -107,20 +119,20 @@
       <h1>Interests</h1>
       <br>
       <div class="row">
-        <div id="topic" class="col-md-4 col-sm-4">
+        <div id="topic" class="col-md-4">
           <h2><span class="label label-info">History Nerd</span></h2>
           <p>You won't find anyone more excited about history than I.<br>
           Learning about other places, times, and peoples is one of the enduring passions of my life.<br>
           See my project on the American intervention in Somalia as an example.</p>
         </div>
-        <div id="topic" class="col-md-4 col-sm-4">
+        <div id="topic" class="col-md-4">
           <h2><span class="label label-info">Future Programming Champion</span></h2>
           <p>I am quickly picking up new skills and tradecraft.<br>
           Right now my focus is on web development and cloud applications, but in the past<br>
           I have developed a proficiency in low-level and object-oriented programming.
           </p>
         </div>
-        <div id="topic" class="col-md-4 col-sm-4">
+        <div id="topic" class="col-md-4">
           <h2><span class="label label-info">Running Fiend</span></h2>
           <p>I have run cross country and track through high school and college.<br>
           It is what keeps me healthy, physically and mentally, and it reminds me<br>
